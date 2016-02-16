@@ -52,8 +52,8 @@
 		0D30CC081C7360B000F72DB3 = {
 			isa = PBXGroup;
 			children = (
-				0D30CC131C7360B000F72DB3 /* checklist-app */,
 				0D30CC121C7360B000F72DB3 /* Products */,
+				0D30CC131C7360B000F72DB3 /* checklist-app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,10 +68,10 @@
 		0D30CC131C7360B000F72DB3 /* checklist-app */ = {
 			isa = PBXGroup;
 			children = (
-				0D30CC141C7360B000F72DB3 /* AppDelegate.swift */,
-				0D82FC571C73636C004E8F18 /* Models */,
 				0D82FC561C736360004E8F18 /* Controllers */,
+				0D82FC571C73636C004E8F18 /* Models */,
 				0D82FC541C736346004E8F18 /* View */,
+				0D30CC141C7360B000F72DB3 /* AppDelegate.swift */,
 				0D30CC201C7360B000F72DB3 /* Info.plist */,
 			);
 			path = "checklist-app";
@@ -83,28 +83,28 @@
 				0D82FC551C736353004E8F18 /* Storyboard */,
 				0D30CC1B1C7360B000F72DB3 /* Assets.xcassets */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		0D82FC551C736353004E8F18 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				0D30CC181C7360B000F72DB3 /* Main.storyboard */,
 				0D30CC1D1C7360B000F72DB3 /* LaunchScreen.storyboard */,
+				0D30CC181C7360B000F72DB3 /* Main.storyboard */,
 			);
-			name = Storyboard;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		0D82FC561C736360004E8F18 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0D82FC581C7363E7004E8F18 /* CheckListTableViewController.swift */,
-				0D82FC5C1C73765D004E8F18 /* ItemDetailViewController.swift */,
 				0D82FC601C738681004E8F18 /* AllListViewController.swift */,
-				0D8B5DD81C738ADF00A5E5F0 /* ListDetailViewController.swift */,
+				0D82FC581C7363E7004E8F18 /* CheckListTableViewController.swift */,
 				0D8B5DDC1C73BA0F00A5E5F0 /* IconPickerViewController.swift */,
+				0D82FC5C1C73765D004E8F18 /* ItemDetailViewController.swift */,
+				0D8B5DD81C738ADF00A5E5F0 /* ListDetailViewController.swift */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		0D82FC571C73636C004E8F18 /* Models */ = {
@@ -114,7 +114,7 @@
 				0D82FC5E1C7385E8004E8F18 /* Checklist.swift */,
 				0D8B5DDA1C73AB2E00A5E5F0 /* DataModel.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +209,7 @@
 				0D30CC191C7360B000F72DB3 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		0D30CC1D1C7360B000F72DB3 /* LaunchScreen.storyboard */ = {
@@ -217,6 +218,7 @@
 				0D30CC1E1C7360B000F72DB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
